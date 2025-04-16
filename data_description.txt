@@ -1,0 +1,13 @@
+Data Source:
+Yahoo Finance
+
+ETFs:
+- VTI (Vanguard Total Stock Market ETF)
+- VT (Vanguard Total World Stock ETF)
+
+Date Range:
+2020-01-01 to 2025-04-14
+
+Data Fields Used:
+- Close Prices
+- Daily Returns (calculated from Close prices)
