@@ -1,35 +1,47 @@
-# 📊 ETF 報酬波動與追蹤誤差分析專案
+# 📊 ETF Return Volatility & Tracking Error Analysis
 
-這是一個基礎金融資料分析專案，透過 Python 與 yfinance 套件，下載 VT 與 VTI 兩支美國 ETF 的歷史股價，觀察其每日報酬率，並找出波動最大的時間點，作為追蹤誤差研究的初步探索。
-
----
-
-## 🔍 專案目的
-
-- 熟悉金融資料的取得與清洗
-- 計算報酬率與視覺化走勢
-- 找出波動劇烈的市場時刻
-- 作為後續碩士論文研究「Tracking Error」的實作基礎
+This is a beginner-friendly financial data analysis project using Python and the `yfinance` library. It explores the historical stock prices of two major U.S. ETFs—**VT** and **VTI**—to compute daily returns and identify the most volatile trading days. This serves as an initial step for further academic research on **tracking error**.
 
 ---
 
-## 📂 專案內容
+## 🔍 Project Objectives
 
-| 分析項目 | 說明 |
-|----------|------|
-| ETF 選擇 | Vanguard Total World Stock ETF (VT)、Vanguard Total Stock Market ETF (VTI) |
-| 資料來源 | Yahoo Finance (透過 `yfinance` 套件擷取) |
-| 計算指標 | 日報酬率、報酬變動排序、震盪最大 Top 10 日 |
-| 視覺化 | 使用 matplotlib 畫出收盤價走勢與報酬率走勢圖 |
+- Learn how to fetch and clean financial time series data  
+- Calculate and visualize daily returns  
+- Identify periods of high market volatility  
+- Establish a foundation for thesis work on ETF **Tracking Error**
 
 ---
 
-## 🧪 使用技術
+## 📂 Project Details
+
+| Feature | Description |
+|--------|-------------|
+| ETF Selection | Vanguard Total World Stock ETF (VT) and Vanguard Total Stock Market ETF (VTI) |
+| Data Source | Yahoo Finance (via the `yfinance` Python package) |
+| Key Metrics | Daily returns, absolute return ranking, Top 10 volatility days |
+| Visualization | Daily closing price and return charts using `matplotlib` |
+
+---
+
+## 🧪 Technologies Used
 
 - `Python`
 - `pandas`
 - `matplotlib`
 - `yfinance`
-- `Google Colab`（或 Jupyter Notebook）
+- `Google Colab` (or Jupyter Notebook)
 
 ---
+
+## ✅ How to Use
+
+1. Clone this repository or open it in Google Colab  
+2. Make sure the required packages are installed (`yfinance`, `pandas`, `matplotlib`)  
+3. Run the notebook step-by-step to:
+   - Download ETF data
+   - Calculate and plot daily returns
+   - Identify the Top 10 most volatile days
+   - Compute tracking error (as a preliminary metric)
+
+
